@@ -1,0 +1,152 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.header {
+    background-color: burlywood;
+    padding: 10px;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header li, a {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header h1 {
+    font-size: 30px;
+    color: blanchedalmond;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.navigation {
+    background-color: antiquewhite;
+    display: flex;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+}
+
+.menu {
+  list-style: none;         
+  padding: 0;
+  margin: 0;
+  display: flex;            
+  justify-content: flex-start; 
+  gap: 30px;               
+}
+
+.menu li a {
+  text-decoration: none;    
+  color: burlywood; 
+  font-size: 30px;            
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+p, li, a {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.main p {
+    font-family: "Poetsen One", sans-serif;
+    font-style: oblique;
+    font-weight: 400;
+
+}
+
+.main h1, .main h2, .main h3, .main h4, .main h5, .main h6 {
+    font-family: "Montserrat", sans-serif;
+    color: burlywood;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.activity {
+    font-family: "Poetsen One", sans-serif;
+    font-style: italic;
+}
+
+.items {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 400px;
+    height: 400px;
+    border: 2px solid #000000;
+    background-color: burlywood;
+    font-family: "Poesten One", sans-serif;
+    font-style: italic;
+    border: 2px solid #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+
+    display: flex;                    
+    flex-direction: column;          
+    justify-content: flex-start;      
+    align-items: center;              
+    text-align: center;               
+
+}
+
+.item img {
+    max-width: 100%;
+    max-height: 250px;
+    object-fit: contain;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;              
+}
+
+.item h2 {
+    color: blanchedalmond;
+    font-weight: 600;
+    min-height: 48px;
+    margin: 10px 0 5px 0;
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.item p {
+    font-weight: 400;
+    font-family: "Montserrat",sans-serif;
+    color:blanchedalmond;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.footer {
+    background-color: burlywood;
+}
+
+.footer h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: blanchedalmond;
+}
