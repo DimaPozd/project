@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+body {
+    font-family: "Orenburg", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.wrapper-full {
+    width: 100%;
+}
+
+.wrapper-fix {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0px auto;
+}
+
+.section-header {
+    background-image: url("../images/header-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section,
+footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.header-row-01 {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   padding: 30px 0px;
+}
+
+.header-row-01 .header-column-01,
+.header-row-01 .header-column-02 {
+    display: flex;
+    align-items: center;
+    column-gap: 26px;
+}
+
+.header-column-01 p {
+    color: #939393;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.header-column-02 .header-phone {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.header-column-02 .header-phone a {
+    color: #939393;
+    font-size: 16px;
+    line-height: 18px;
+    
+    text-decoration: none;
+}
+
+.header-column-02 .header-search-button {
+    width: 40px;
+    height: 40px;
+
+    border: 1px solid #494949;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-row-02 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-row-02 .header-column-03 {
+    width: 60%;
+}
+
+.header-row-02 .header-column-04 {
+    width: 40%;
+}
+
+.image {
+    width: 100%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.header-column-03 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.header-column-03 nav ul li {
+    margin: 24px 0px;
+}
+
+.header-column-03 h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    line-height: 64px;
+    font-weight: 400;
+
+    margin: 0px 0px 54px 0px;
+}
+
+.header-column-03 nav ul li a {
+    color: #bebebe;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+
+    display: flex;
+    column-gap: 15px;
+    padding-bottom: 12px;
+
+}
+
+
+.line {
+    width: 370px;
+    height: 1px;
+    background: linear-gradient(90deg,rgba(75, 75, 75, 1) 0%, rgba(38, 38, 37, 0) 100%);
+    
+
+}
+
+.header-column-04 {
+    position: relative;
+}
+
+.header-column-04 .price {
+    position: absolute;
+    display: inline-block;
+    background-color: #FF7028;
+    border-radius: 2px;
+    padding: 15px 15px;
+    bottom: 145px;
+    left: 150px;
+}
+
+.header-column-04 .price span {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 20px;
+    font-style: bold;
+
+}

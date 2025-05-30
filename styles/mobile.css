@@ -1,0 +1,31 @@
+@media(min-width: 900px) {
+    body {
+        font-family: Arial;
+    }
+}
+
+@media (max-width: 1400px) {
+  .wrapper-fix {
+    max-width: px;
+    padding: 0 40px 40px 40px;
+    position: relative;
+  }
+
+  .header-row-02 {
+    position: relative;
+  }
+
+  .header-column-04 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px; /* подбери нужную ширину */
+    max-width: 100%;
+    }
+
+  .header-column-04 .image img {
+    max-width: none;
+    width: auto;
+    height: auto;
+  }
+}
